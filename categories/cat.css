@@ -1,0 +1,133 @@
+
+
+/* main */
+.wrapper  h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Audiowide;
+    margin-top: 22px;
+    }
+    
+    .img-area{ 
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .single-img{
+      padding: 0px 20px 20px;
+      transition:transform .4s;
+    }
+    .single-img:hover{
+      transform:scale(1.09);
+    }
+    
+    
+    
+    img:hover{
+      opacity: .5;
+      transition : .9s;
+       
+    }
+    
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #008CBA;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+    }
+    
+    .content{
+      position: absolute;
+      top : 50%;
+      left : 50%;
+      transform : translate(-50%, -50%);
+      color : white;
+      font-family: verdana;
+      text-align: center;
+    }
+    
+    .container:hover.overlay{
+    opacity: 1;  
+    }
+    
+    h1:hover {
+      background-color: blue;
+    }
+    
+    #last{
+       font-family: 'Courier New', monospace;
+       
+    }
+    #syn{
+        font-family: "Courier New";
+      }
+      
+      #x{
+        padding: 0px 0px 0px 370px;
+        font-family: "Verdana";
+      }
+      #y{
+        padding: 0px 0px 0px 270px;
+        font-family: "Courier";
+      }
+      #form{  
+          width: 95%;
+          margin: 0;
+          padding: .6em .7em 0px 300px ;
+          border: 1px solid var(--bc-darker);
+          border-radius: var(--br-sm);
+          background-color: var(--white);
+          color: var(--fc-dark);
+          font-size: var(--fs-body1); 
+          font-family: "Courier";
+          
+      }
+      #form2{
+        border-width: 1px;
+        padding: 0px 0px 0px 330px
+      }
+      #z{
+        padding: 0px 0px 0px 330px;
+        font-family: "Courier";
+      }
+      #message{
+        resize: none;
+      }
+      #a{
+        padding: 0px 0px 0px 450px;
+        }
+      form button{
+        background : #ADB7E6;
+        color: #fff;
+        font-size : 18px;
+        border : 0;
+        outline : none;
+        cursor: pointer;
+        width:100px;
+        border-radius:30px;  
+      }
+      
+      #product1{
+          text-align: center;
+      }
+      #product1.pro{
+        width:23%;
+        min-width:250px;
+        padding : 10px 20px;
+        border: 1px solid #cce7d0;
+        border-radius :20px;
+        box-shadow : 20px 20px 30px rgba(0,0,0,0.02);
+      }
+      #product1.pro img{
+        width:100%;
+        border-radius: 20px;
+        
+      }
